@@ -3,15 +3,24 @@ import StarCounter from './StarCounter';
 import './App.css';
 
 function App() {
-
   return (
-    
     <div className="App">
 
-      <h1>Counter with Stars</h1>
+      <nav className="navbar">
 
+        <div className="logo">
+
+          <img src="rick and morty space.jpg" alt="Logo" />
+          
+        </div>
+        <div className="menu">
+
+          <button>Menu</button>
+
+        </div>
+      </nav>
+      <h1 className='heading'>StarCounter</h1>
       <StarCounter />
-
     </div>
   );
 }

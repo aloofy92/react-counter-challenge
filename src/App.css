@@ -1,13 +1,29 @@
+
+
+
 .counter {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  
+
+}
+
+.heading {
+  font-family: 'Rubik Puddles', sans-serif;
+  color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .counter button {
   font-size: 18px;
-  padding: 10px 20px;
+  padding: 15px 30px;
+  background-color: gold;
+  margin: 0 20px;
 }
 
 .starsContainer {
@@ -16,6 +32,25 @@
 }
 
 .star {
-  font-size: 24px;
+  font-size: 40px;
   margin: 0 2px;
+  color: gold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: purple;
+  padding: 10px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.menu button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: gold;
 }
